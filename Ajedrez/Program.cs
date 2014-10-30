@@ -10,6 +10,11 @@ namespace Ajedrez
     {
         static void Main(string[] args)
         {
+            Tablero tablero = new Tablero();
+            tablero.PintaTablero();
+
+
+            Console.Read();
         }
     }
 }
